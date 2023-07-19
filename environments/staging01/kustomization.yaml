@@ -5,9 +5,11 @@ bases:
   - ../../base
 images:
   - name: bretfisher/wordsmith-api
-    newTag: latest
+    newName: ghcr.io/raphael-fretter/wordsmith-api
+    newTag: stable-20230719-f811195
   - name: bretfisher/wordsmith-web
-    newTag: latest
+    newName: ghcr.io/raphael-fretter/wordsmith-web
+    newTag: stable-20230713-1d47138
 configMapGenerator:
   - name: db-schema
     files:
