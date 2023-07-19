@@ -18,7 +18,7 @@ spec:
       containers:
         - name: api
           # FIXME:<your-org/repo:tag>
-          image: bretfisher/wordsmith-api
+          image: raphael-fretter/wordsmith-api
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
